@@ -5,8 +5,10 @@ const Net = require('net');
 var mysql = require('mysql');
 */
 // The port on which the server is listening.
-const port = 8080;
-
+//const port = 8080;
+//use alternate localhost and the port Heroku assigns to $PORT
+const host = '0.0.0.0';
+const port = process.env.PORT || 3000;
 /** 
 //Crea la conexión a base de datos.
 //TODO Parametrizar los datos de BBDD por seguridad.
