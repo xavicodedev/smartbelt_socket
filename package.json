@@ -1,0 +1,23 @@
+{
+  "name": "smartbelt_socket",
+  "version": "0.0.1",
+  "description": "Websocket to get data",
+  "main": "socket.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node socket.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xavigc7/smartbelt_socket.git"
+  },
+  "keywords": [
+    "socket"
+  ],
+  "author": "Xavi Garcia Clavero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xavigc7/smartbelt_socket/issues"
+  },
+  "homepage": "https://github.com/xavigc7/smartbelt_socket#readme"
+}
