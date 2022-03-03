@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/xavigc7/smartbelt_socket/issues"
   },
-  "homepage": "https://github.com/xavigc7/smartbelt_socket#readme"
+  "homepage": "https://github.com/xavigc7/smartbelt_socket#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.3",
+    "multer": "^1.4.4"
+  }
 }
